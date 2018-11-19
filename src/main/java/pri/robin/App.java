@@ -34,7 +34,7 @@ public class App
 //        System.out.println(new File("20180617_153357.m4a").exists());
 
         // 调用接口
-        JSONObject res = client.asr("src/main/resources/20180617_153357.m4a", "m4a", 16000, null);
+        JSONObject res = client.asr("src/main/resources/20180617_153357.wav", "wav", 16000, null);
         System.out.println(res.toString(2));
 
     }
